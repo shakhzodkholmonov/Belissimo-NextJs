@@ -1,10 +1,9 @@
 import Layout from "@/client/components/Layout";
-import { Box, Fade, Grid, Modal, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 
-// Define the Product interface
 interface Product {
   id: number;
   title: string;
@@ -19,8 +18,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const [products, setProducts] = useState<Product[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null); // Track the selected product
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -43,16 +40,6 @@ export default function Home() {
     selectedCategory === "all" ? products : products.filter((product) => product.category === selectedCategory);
 
   const categories = ["all", "kombo", "pitsa", "gazaklar", "ichimliklar", "salatlar", "desertlar", "souslar"];
-
-  // Handle modal open and close
-  const handleOpenModal = (product: Product) => {
-    setSelectedProduct(product); // Set the selected product
-    setIsModalOpen(true);
-  };
-  const handleCloseModal = () => {
-    setSelectedProduct(null); // Clear selected product
-    setIsModalOpen(false);
-  };
 
   return (
     <>
@@ -128,7 +115,6 @@ export default function Home() {
                     color: "#ffc600",
                     paddingRight: "360px",
                   }}
-                  onClick={() => handleOpenModal(null)}
                 >
                   Yetkazib berish manzilni tanlang
                 </button>
@@ -193,7 +179,6 @@ export default function Home() {
                 {filteredProducts.map((product) => (
                   <Grid item xs={12} sm={6} md={3} key={product.id}>
                     <Box
-                      onClick={() => handleOpenModal(product)} // Open modal with product details
                       sx={{
                         marginBottom: "20px",
                         boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
@@ -254,81 +239,6 @@ export default function Home() {
             </Box>
           </Box>
         </Box>
-
-        {/* Modal Component with Animation */}
-        <Modal
-          open={isModalOpen}
-          onClose={handleCloseModal}
-          aria-labelledby="modal-title"
-          aria-describedby="modal-description"
-          closeAfterTransition
-          BackdropProps={{
-            timeout: 500,
-          }}
-        >
-          <Fade in={isModalOpen}>
-            <Box
-              sx={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                width: "410px",
-                bgcolor: "white",
-                boxShadow: 24,
-                p: 4,
-                borderRadius: "30px",
-              }}
-            >
-              {selectedProduct ? (
-                <>
-                  <img
-                    src={selectedProduct.img}
-                    alt={selectedProduct.title}
-                    style={{
-                      width: "100%",
-                      height: "180px",
-                      objectFit: "cover",
-                      borderRadius: "15px",
-                    }}
-                  />
-                  <Typography sx={{ fontWeight: "bold", mt: 2 }} variant="h6">
-                    {selectedProduct.title}
-                  </Typography>
-                  <Typography sx={{ mt: 1 }} variant="body2">
-                    {selectedProduct.description}
-                  </Typography>
-                  <Typography sx={{ fontWeight: "bold", mt: 2, fontSize: "21px" }} variant="body2">
-                    {selectedProduct.price} so'm
-                  </Typography>
-                </>
-              ) : (
-                <>
-                  <Typography sx={{ marginLeft: "110px", fontWeight: "bold" }}>Siz tizimga kirmagansiz</Typography>
-                  <Typography sx={{ width: "350px", marginLeft: "35px", marginTop: "20px" }}>
-                    Saytning toʻliq funksiyasidan foydalanish uchun{" "}
-                    <Typography sx={{ marginLeft: "120px" }}>tizimga kiring</Typography>
-                  </Typography>
-                  <button
-                    style={{
-                      width: "400px",
-                      height: "50px",
-                      borderRadius: "30px",
-                      backgroundColor: "#006f4c",
-                      border: "none",
-                      marginLeft: "8px",
-                      marginTop: "10px",
-                      color: "white",
-                      fontSize: "18px",
-                    }}
-                  >
-                    Tizimga kirish
-                  </button>
-                </>
-              )}
-            </Box>
-          </Fade>
-        </Modal>
       </Layout>
     </>
   );

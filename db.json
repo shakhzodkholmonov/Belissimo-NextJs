@@ -9,7 +9,95 @@
       "category": "kombo"
     },
     {
-      "id": "80f0",
+      "id": "fbea",
+      "title": "Student 2",
+      "description": "Bellisster, kartoshka fri va razliv ichimlik — foydali va to’yimli bir kishilik set.",
+      "price": 39000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff8990000-6beb-ac1f-564c-08dc54698574.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "f584",
+      "title": "Do'stlar 1",
+      "description": "2 ta bellisster, 5 ta tovuqli strips va 2 ta razliv ichimlik — do’stlar bilan birga ayni muddao.",
+      "price": 75000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff8990000-6beb-ac1f-17e2-08dc5469e755.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "a01d",
+      "title": "Do'stlar 2",
+      "description": "25 sm’lik pitsa, 8 ta sinnamon rollar, 5 ta tovuqli strips va 2 Coca-Cola razliv — ikki kishilik foydali set.",
+      "price": 85000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff8990000-6beb-ac1f-ad8c-08dc575cbda9.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "1c6e",
+      "title": "DONARLI JUFTLIK",
+      "description": "Xitimiz Donar Pitsa yangi Tovuqli Donar bilan foydali narxdagi bir komboda.",
+      "price": 89000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F03650000-6bec-ac1f-05ef-08db9f189c3d.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "adb4",
+      "title": "Uchta pitsda 99 dan ",
+      "description": "O'zingiz yoqtirgan 25 sm pitsalarni tanlang va foydani tatib ko'ring",
+      "price": 99000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F03bf0000-6bec-ac1f-8510-08dc86e2eee7.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "80e9",
+      "title": "Barakali 1",
+      "description": "1 ta 35 sm'lik pitsa, 8 ta tovuqli strips, 8 ta sinnamon rollar va Coca-Cola 1 L — yaqinlar bilan yanada mazaliroq bo’ladigan set.",
+      "price": 125000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff8990000-6beb-ac1f-fbb6-08dc575e239c.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "edf4",
+      "title": "Barakali 2",
+      "description": "2 ta 30 sm'lik pitsa, 8 ta sinnamon rollar va Coca-Cola 1 L — to’yimli va barakali set.",
+      "price": 135000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff8990000-6beb-ac1f-1b4b-08dc575d771a.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "0b3d",
+      "title": "Katta bazm 1",
+      "description": "4 ta 30 sm’lik pitsa va 2 ta Coca-Cola 1,5 L — katta davra uchun mo’ljallangan set.",
+      "price": 225000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff8990000-6beb-ac1f-4056-08dc575e681f.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "4005",
+      "title": "Bayram 1",
+      "description": "5 ta 30 sm’lik pitsa — bayram uchun mos keladigan foydali set.",
+      "price": 265000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff8990000-6beb-ac1f-e90a-08dc575fd1e7.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "8e2c",
+      "title": "Bayram 2",
+      "description": "7 ta 30 sm’lik pitsa — shodlik va pitsa bayramini bag’ishlaydigan set.",
+      "price": 385000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff8990000-6beb-ac1f-22c1-08dc575ff2eb.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "8812",
+      "title": "Tantana 1",
+      "description": "10 ta 25 sm’lik pitsa — xursandchilikni nishonlash uchun ajoyib katta set.",
+      "price": 435000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F03bf0000-6bec-ac1f-cdff-08dca4ac902f.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "0229",
       "title": "Mr. Pep",
       "description": "Mazali pepperoni mayin motsarella bilan uyg'unlikda. Ushbu pitsaning qutisini bolalar bo'yashlari mumkin.",
       "price": 39000,
@@ -17,43 +105,299 @@
       "category": "pitsa"
     },
     {
-      "id": "43bd",
-      "title": "Kartoshka fri ",
+      "id": "b6e2",
+      "title": "Frimen",
+      "description": "Qarsildoq kartoshka fri va bolajonlar yoqtiradigan sosiskalar. Ushbu pitsaning qutisini bolalar bo'yashlari mumkin.",
+      "price": 39000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F1b7c0cde-d2e7-4f96-9e5e-bd303bd4c11f.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "4734",
+      "title": "Tovuqli donar",
+      "description": "Yumshoq xamir, tovuq donar go‘shti, ayzberg karami, pishloq, piyoz va pomidor bo‘laklari hamda ranch va burger sousi",
+      "price": 63000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F5fb58b09-5c77-44de-8de8-f1be55c2aef1.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "5422",
+      "title": "Go'shtli miks",
+      "description": "Pitsa, barbekyu va burger souslari solingan, donar, kabob, mol go'shti va pepperoni kolbasasi bilan haqiqiy motsarella pishlog'i va piyoz.",
+      "price": 92000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fc14e362c-57a5-49fd-9a80-b14ce099b777.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "ed16",
+      "title": "Donar pitsa",
+      "description": "Donar go‘shti va haqiqiy motsarella pishlog‘i solingan mazali va to‘yimli pitsa",
+      "price": 63000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F405e4be1-3493-49d2-ab92-4eb256200ac5.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "31ab",
+      "title": "Super miks",
+      "description": "«Super Miks» pitsasi   1 ta pitsada 4 xil sevimli pitsalaringiz birlashmasi 😋",
+      "price": 92000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F94844930-5c66-4c12-a670-93b048169dbe.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "176c",
+      "title": "Pishloqli jo'ja",
+      "description": "Yumshoq tovuq filesi, motsarella pishlogʻi, pomidor va pishloqli sous",
+      "price": 42000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F17126e05-7876-45a6-be19-e6d0af0328a4.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "da6c",
+      "title": "Dabl pepperoni ",
+      "description": "Ikki hissa pepperoni motsarella pishlogʻi va tomat sousi bilan",
+      "price": 63000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F23138748-1bff-4994-b42b-cf7044ed4e0d.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "e8d5",
+      "title": "Jo'jacha Ranch",
+      "description": "Yumshoq tovuq filesi, motsarella pishlogʻi va pomidor Ranch sousi bilan",
+      "price": 53000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F0a6ad3e4-3cac-40d4-a278-13416f28b5fe.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "95b1",
+      "title": "Halapeno",
+      "description": "Kurka filesi, yumshoq mol goʻshti, piyoz, pomidor, \"Halapeno\" achchiq qalampiri, motsarella pishlogʻi va barbekyu sous",
+      "price": 57000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F84e3a554-551a-45f6-9ac1-9c7870aa6f14.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "961c",
+      "title": "Pepperoni",
+      "description": "Pepperoni, motsarella pishlogʻi va tomat sousi",
+      "price": 53000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F601282db-7274-43e4-ac74-e8987d53dd6e.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "a23a",
+      "title": "Meksikancha",
+      "description": "Mol goʻshti, pepperoni kolbasasi, mayin motsarella pishlogʻi, xalapenyo, barbekyu sousi, bulgʻor qalampiri, piyoz va pomidorlar",
+      "price": 57000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F07b2af79-95e0-48ae-8962-3b29fdfcb6d4.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "3f80",
+      "title": "Kartoshka fri",
       "description": "Pechdan yangi uzilgan qarsildoq kartoshka fri",
       "price": 17000,
-      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F02b6e2a7-787c-46cb-b5b3-2dfafb6d23e2.jpg&w=1200&q=75",
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F02b6e2a7-787c-46cb-b5b3-2dfafb6d23e2.jpg&w=1920&q=75",
       "category": "gazaklar"
     },
     {
-      "id": "787e",
+      "id": "037f",
+      "title": "\"Po-derevenski\" kartoshkasi",
+      "description": "Pechdan yangi uzilgan qarsildoq \"po-derevenski\" kartoshkasi",
+      "price": 17000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F6a0457e3-5606-4bf1-a8ed-ade0a5dc3485.jpg&w=1920&q=75",
+      "category": "gazaklar"
+    },
+    {
+      "id": "9b01",
+      "title": "Pepperoni rollar 12dona",
+      "description": "Qarsildoq xamir, mayin Ranch sousi, pepperoni va juda koʻp pishloq",
+      "price": 27000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F5aabe16c-ace1-40af-9225-8342ce4533ab.jpg&w=1920&q=75",
+      "category": "gazaklar"
+    },
+    {
+      "id": "a029",
+      "title": "Tovuqli Bellisster",
+      "description": "Mazali tovuqcha yumshoq tortilya ichida haqiqiy motsarella pishlog'i, pomidor va ranch sous bilan",
+      "price": 24000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F383534d2-68d6-43bb-8ca2-45127018845c.jpg&w=1920&q=75",
+      "category": "gazaklar"
+    },
+    {
+      "id": "4de8",
+      "title": "Tovquli popperslar",
+      "description": "Qarsildoq tovuq bo'lakchalari 100% tovuq filesidan tayyorlangan, alohida sous bilan birga beriladi.",
+      "price": 21000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F9e629de6-027e-431c-b3d3-bc2762b8238c.jpg&w=1920&q=75",
+      "category": "gazaklar"
+    },
+    {
+      "id": "6686",
+      "title": "Breadstik",
+      "description": "Motsarella pishlog'i firmenniy va pitsa sousi bilan",
+      "price": 21000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F4e81f2f1-f49f-4fce-bef0-a02f507effb1.jpg&w=1920&q=75",
+      "category": "gazaklar"
+    },
+    {
+      "id": "ba05",
+      "title": "Alfredo pasta",
+      "description": "Motsarella pishlog'i firmenniy va pitsa sousi bilan",
+      "price": 29000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Faa3dfa3c-badd-4d96-99a1-1c6e2f09b42d.jpg&w=1920&q=75",
+      "category": "gazaklar"
+    },
+    {
+      "id": "6d38",
+      "title": "Go'shtli Bellister",
+      "description": "Mazali donar go’shti yumshoq tortilya ichida haqiqiy motsarella pishlog'i, pomidor, piyoz va barbekyu sousi bilan. ",
+      "price": 26000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F5f20fa5f-87a6-4956-9884-6ebcf76531aa.jpg&w=1920&q=75",
+      "category": "gazaklar"
+    },
+    {
+      "id": "436f",
       "title": "Coca Cola",
-      "description": "Coca Cola 0,5L",
+      "description": "Coca -Cola 0,5L ",
       "price": 10000,
       "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fb3c127ef-0a3b-45a9-a8ee-7a5610d2a05e.jpg&w=1920&q=75",
       "category": "ichimliklar"
     },
     {
-      "id": "78e3",
+      "id": "6f7b",
+      "title": "Coca Cola",
+      "description": "Coca-Cola 1L ",
+      "price": 14000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff956bfaa-a2db-401a-8e9b-2edb2cc6a099.jpg&w=1920&q=75",
+      "category": "ichimliklar"
+    },
+    {
+      "id": "d007",
+      "title": "Coca Cola",
+      "description": "Coca Cola 1,5L",
+      "price": 19000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F83bf6e19-b204-4351-84ce-ab7376b40827.jpg&w=1920&q=75",
+      "category": "ichimliklar"
+    },
+    {
+      "id": "58ea",
+      "title": "Fanta",
+      "description": "Fanta 0,5L",
+      "price": 10000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F68becb55-af08-4690-b56c-4b148a81210f.jpg&w=1920&q=75",
+      "category": "ichimliklar"
+    },
+    {
+      "id": "eeaf",
+      "title": "Fanta",
+      "description": "Fanta 1L",
+      "price": 14000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fe7bd94ce-ad87-4f2e-9076-e9586a355ec5.jpg&w=1920&q=75",
+      "category": "ichimliklar"
+    },
+    {
+      "id": "449c",
+      "title": "Fanta",
+      "description": "Fanta 1,5L",
+      "price": 19000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fa3ae1e91-cfdb-4178-8053-9f2f193af066.jpg&w=1920&q=75",
+      "category": "ichimliklar"
+    },
+    {
+      "id": "9d20",
+      "title": "Moxito ",
+      "description": "Tabiiy salqin ichimlik",
+      "price": 15000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F2e6957dd-7e64-4538-99c3-1139e1b3d0b7.jpg&w=1920&q=75",
+      "category": "ichimliklar"
+    },
+    {
+      "id": "356e",
+      "title": "Mango-Marakuya",
+      "description": "Tropik ta’mga ega salqin ichimlik",
+      "price": 15000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fd4eb7152-2d95-4734-8e22-1ebc0fc9cca4.jpg&w=1920&q=75",
+      "category": "ichimliklar"
+    },
+    {
+      "id": "a62c",
       "title": "Salat",
       "description": "\"Grecheskiy\" salat",
       "price": 24000,
-      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fc9683d57-8d30-44fa-ad1e-2e1b53091fb0.jpg&w=1200&q=75",
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fc9683d57-8d30-44fa-ad1e-2e1b53091fb0.jpg&w=1920&q=75",
       "category": "salatlar"
     },
     {
-      "id": "3c23",
+      "id": "9adb",
+      "title": "Salat ",
+      "description": "\"Sezar\" salat",
+      "price": 24000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ffc1cd67e-1b88-4c03-86ed-11f43a784fbe.jpg&w=1920&q=75",
+      "category": "salatlar"
+    },
+    {
+      "id": "fd14",
       "title": "Desert",
       "description": "Sinnamon Rollar 8 ta",
       "price": 15000,
-      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F3a9e1b1a-9327-4c6c-959f-a2981565baaa.jpg&w=1200&q=75",
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F3a9e1b1a-9327-4c6c-959f-a2981565baaa.jpg&w=1920&q=75",
       "category": "desertlar"
     },
     {
-      "id": "87f5",
+      "id": "f20d",
+      "title": "Desert",
+      "description": "Shokoladli Fondon",
+      "price": 19000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fb643ceb5-6a4e-4101-a3dc-91c5327c588a.jpg&w=1920&q=75",
+      "category": "desertlar"
+    },
+    {
+      "id": "1273",
+      "title": "Desert",
+      "description": "Sinnamon Rollar 16 ta ",
+      "price": 28000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F02708d12-129a-42d3-b69e-287f19e14751.jpg&w=1920&q=75",
+      "category": "desertlar"
+    },
+    {
+      "id": "3a32",
+      "title": "Desert",
+      "description": "Shokoladli chizkeyk",
+      "price": 22000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F0f273e76-ee34-42e5-b565-500186dc2f5b.jpg&w=1920&q=75",
+      "category": "desertlar"
+    },
+    {
+      "id": "dfec",
+      "title": "Desert",
+      "description": "Classik chizkeyk",
+      "price": 22000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F697b7e86-f11a-4090-89f1-45cadba7f1e0.jpg&w=1920&q=75",
+      "category": "desertlar"
+    },
+    {
+      "id": "643a",
       "title": "Sous",
-      "description": "Firmenniy sous ",
+      "description": "Firmenniy sous",
       "price": 4000,
       "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fb33f0b64-fa93-4f15-8c94-21ceb4ce722b.jpg&w=1920&q=75",
+      "category": "souslar"
+    },
+    {
+      "id": "1515",
+      "title": "Sous",
+      "description": "Pishloqli sous",
+      "price": 4000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F1c50817b-2ed5-41a4-8192-12aa169a734b.jpg&w=1920&q=75",
+      "category": "souslar"
+    },
+    {
+      "id": "9d26",
+      "title": "Sous",
+      "description": "Barbekyu sousi",
+      "price": 4000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ffa3e85c6-813f-41d2-902e-56d9225e6608.jpg&w=1920&q=75",
       "category": "souslar"
     }
   ]
