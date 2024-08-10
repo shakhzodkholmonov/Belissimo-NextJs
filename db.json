@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "d2f2",
+      "title": "Student 1",
+      "description": "Bellisster, 3 ta tovuqli strips va razliv ichimlik — tez va mazali tushlik uchun ajoyib tanlov.",
+      "price": 39000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Ff8990000-6beb-ac1f-17a8-08dc53d21cf2.jpg&w=1920&q=75",
+      "category": "kombo"
+    },
+    {
+      "id": "80f0",
+      "title": "Mr. Pep",
+      "description": "Mazali pepperoni mayin motsarella bilan uyg'unlikda. Ushbu pitsaning qutisini bolalar bo'yashlari mumkin.",
+      "price": 39000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fbd276106-b16a-4c07-a963-1ccffef5e30d.jpg&w=1920&q=100",
+      "category": "pitsa"
+    },
+    {
+      "id": "43bd",
+      "title": "Kartoshka fri ",
+      "description": "Pechdan yangi uzilgan qarsildoq kartoshka fri",
+      "price": 17000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F02b6e2a7-787c-46cb-b5b3-2dfafb6d23e2.jpg&w=1200&q=75",
+      "category": "gazaklar"
+    },
+    {
+      "id": "787e",
+      "title": "Coca Cola",
+      "description": "Coca Cola 0,5L",
+      "price": 10000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fb3c127ef-0a3b-45a9-a8ee-7a5610d2a05e.jpg&w=1920&q=75",
+      "category": "ichimliklar"
+    },
+    {
+      "id": "78e3",
+      "title": "Salat",
+      "description": "\"Grecheskiy\" salat",
+      "price": 24000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fc9683d57-8d30-44fa-ad1e-2e1b53091fb0.jpg&w=1200&q=75",
+      "category": "salatlar"
+    },
+    {
+      "id": "3c23",
+      "title": "Desert",
+      "description": "Sinnamon Rollar 8 ta",
+      "price": 15000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2F3a9e1b1a-9327-4c6c-959f-a2981565baaa.jpg&w=1200&q=75",
+      "category": "desertlar"
+    },
+    {
+      "id": "87f5",
+      "title": "Sous",
+      "description": "Firmenniy sous ",
+      "price": 4000,
+      "img": "https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fb33f0b64-fa93-4f15-8c94-21ceb4ce722b.jpg&w=1920&q=75",
+      "category": "souslar"
+    }
+  ]
+}
