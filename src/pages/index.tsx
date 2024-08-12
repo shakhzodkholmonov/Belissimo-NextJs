@@ -1,5 +1,5 @@
 import Layout from "@/client/components/Layout";
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, CircularProgress, Grid, Modal, Typography } from "@mui/material";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -18,6 +18,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const [products, setProducts] = useState<Product[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -28,13 +32,26 @@ export default function Home() {
         }
         const data: Product[] = await response.json();
         setProducts(data);
+        setLoading(false);
       } catch (error) {
         console.error("Error fetching products:", error);
+        setError("Error fetching products");
+        setLoading(false);
       }
     };
 
     fetchProducts();
   }, []);
+
+  const handleProductClick = (product: Product) => {
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedProduct(null);
+    setIsModalOpen(false);
+  };
 
   const filteredProducts =
     selectedCategory === "all" ? products : products.filter((product) => product.category === selectedCategory);
@@ -62,7 +79,7 @@ export default function Home() {
             <img
               style={{ width: "1150px", borderRadius: "10px" }}
               src="https://bellissimo.uz/_next/image?url=https%3A%2F%2Fio.bellissimo.uz%2Fimages%2Fabdf7424-78c1-461e-a964-de97befabb53_uz.jpg&w=1920&q=75"
-              alt=""
+              alt="Promotion"
             />
             <Box sx={{ display: "flex" }}>
               <Box
@@ -175,10 +192,13 @@ export default function Home() {
               </Box>
             </Box>
             <Box sx={{ marginTop: "40px" }}>
+              {loading && <CircularProgress />}
+              {error && <Typography color="error">{error}</Typography>}
               <Grid container spacing={3}>
                 {filteredProducts.map((product) => (
                   <Grid item xs={12} sm={6} md={3} key={product.id}>
                     <Box
+                      onClick={() => handleProductClick(product)}
                       sx={{
                         marginBottom: "20px",
                         boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
@@ -239,6 +259,81 @@ export default function Home() {
             </Box>
           </Box>
         </Box>
+
+        {/* Modal for displaying product details */}
+        <Modal open={isModalOpen} onClose={handleCloseModal}>
+          <Box
+            sx={{
+              position: "absolute" as const,
+              top: "50%",
+              left: "50%",
+              transform: "translate(-50%, -50%)",
+              width: "720px",
+              bgcolor: "white",
+              borderRadius: "20px",
+              height: "330px",
+            }}
+          >
+            <Box sx={{ margin: "15px" }}>
+              <button
+                style={{
+                  border: "none",
+                  width: "40px",
+                  height: "40px",
+                  backgroundColor: "white",
+                  borderRadius: "20px",
+                  boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+                }}
+                onClick={handleCloseModal}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 1024 1024">
+                  <path fill="red" d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64" />
+                  <path
+                    fill="red"
+                    d="m237.248 512l265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312z"
+                  />
+                </svg>
+              </button>
+              {selectedProduct && (
+                <>
+                  <Box sx={{ display: "flex" }}>
+                    <img
+                      src={selectedProduct.img}
+                      alt={selectedProduct.title}
+                      style={{
+                        width: "100%",
+                        height: "200px",
+                        objectFit: "cover",
+                        borderRadius: "10px",
+                        marginTop: "5px",
+                      }}
+                    />
+                    <Box sx={{ marginRight: "20px" }}>
+                      <Typography sx={{ fontWeight: "bold", fontSize: "25px" }}>{selectedProduct.title}</Typography>
+                      <Typography sx={{ mt: 1 }}>{selectedProduct.description}</Typography>
+                      <Typography sx={{ mt: 2, fontWeight: "bold", fontSize: "20px" }}>
+                        {selectedProduct.price} so'm
+                      </Typography>
+                      <button
+                        style={{
+                          width: "350px",
+                          height: "40px",
+                          backgroundColor: "#006f4c",
+                          border: "none",
+                          borderRadius: "20px",
+                          marginTop: "40px",
+                          color: "white",
+                        }}
+                      >
+                        Add to basket
+                      </button>
+                    </Box>
+                  </Box>
+                </>
+              )}
+            </Box>
+          </Box>
+        </Modal>
       </Layout>
     </>
   );
