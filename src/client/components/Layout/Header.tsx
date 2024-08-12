@@ -1,5 +1,6 @@
 import { Typography } from "@mui/material";
 import Box from "@mui/material/Box";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -20,11 +21,13 @@ const Header = () => {
           gap: "35px",
         }}
       >
-        <img
-          style={{ width: "180px", height: "48px", marginTop: "19px" }}
-          src="https://bellissimo.uz/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75"
-          alt=""
-        />
+        <Link href="/">
+          <img
+            style={{ width: "180px", height: "48px", marginTop: "19px" }}
+            src="https://bellissimo.uz/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75"
+            alt=""
+          />
+        </Link>
         <Box sx={{ display: "flex", gap: "60px", marginTop: "20px" }}>
           <Box sx={{ display: "flex" }}>
             <Box sx={{ width: "42px", height: "48px", bgcolor: "#ecfdf5" }}>
@@ -125,25 +128,29 @@ const Header = () => {
         </Box>
         <Box sx={{ display: "flex", gap: "20px" }}>
           {" "}
-          <img
-            style={{ marginTop: "19px", height: "58px", width: "58px" }}
-            src="https://bellissimo.uz/_next/image?url=%2Fimages%2Fhalal.png&w=64&q=75"
-            alt=""
-          />
-          <button
-            style={{
-              width: "80px",
-              height: "40px",
-              borderRadius: "24px",
-              border: "none",
-              backgroundColor: "#047857",
-              color: "white",
-              fontSize: "17px",
-              marginTop: "25px",
-            }}
-          >
-            Kirish
-          </button>
+          <Link href="/Halal">
+            <img
+              style={{ marginTop: "19px", height: "58px", width: "58px" }}
+              src="https://bellissimo.uz/_next/image?url=%2Fimages%2Fhalal.png&w=64&q=75"
+              alt=""
+            />
+          </Link>
+          <Link href="/Login">
+            <button
+              style={{
+                width: "80px",
+                height: "40px",
+                borderRadius: "24px",
+                border: "none",
+                backgroundColor: "#047857",
+                color: "white",
+                fontSize: "17px",
+                marginTop: "25px",
+              }}
+            >
+              Kirish
+            </button>
+          </Link>
         </Box>
       </Box>
     </Box>

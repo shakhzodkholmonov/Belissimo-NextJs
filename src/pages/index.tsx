@@ -2,6 +2,7 @@ import Layout from "@/client/components/Layout";
 import { Box, CircularProgress, Grid, Modal, Typography } from "@mui/material";
 import { Inter } from "next/font/google";
 import Head from "next/head";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 interface Product {
@@ -176,19 +177,21 @@ export default function Home() {
                 ))}
               </Box>
               <Box sx={{ marginTop: "25px", marginLeft: "95px" }}>
-                <button
-                  style={{
-                    width: "110px",
-                    height: "37px",
-                    borderRadius: "40px",
-                    border: "none",
-                    color: "white",
-                    backgroundColor: "#ff002b",
-                    fontSize: "17px",
-                  }}
-                >
-                  Savatcha | 0
-                </button>
+                <Link href="/Savat">
+                  <button
+                    style={{
+                      width: "110px",
+                      height: "37px",
+                      borderRadius: "40px",
+                      border: "none",
+                      color: "white",
+                      backgroundColor: "#ff002b",
+                      fontSize: "17px",
+                    }}
+                  >
+                    Savatcha | 0
+                  </button>
+                </Link>
               </Box>
             </Box>
             <Box sx={{ marginTop: "40px" }}>

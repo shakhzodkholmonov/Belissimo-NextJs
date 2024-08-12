@@ -1,5 +1,4 @@
 import { Box, Typography } from "@mui/material";
-import Footer from "../../client/components/Layout/Footer";
 import Header from "../../client/components/Layout/Header";
 
 const Halal = () => {
@@ -15,7 +14,6 @@ const Halal = () => {
             alt=""
           />
         </Box>
-        <Footer />
       </Box>
     </>
   );
