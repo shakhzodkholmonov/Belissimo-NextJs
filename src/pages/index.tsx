@@ -327,7 +327,7 @@ export default function Home() {
                           color: "white",
                         }}
                       >
-                        Add to basket
+                        Savatga qo'shish
                       </button>
                     </Box>
                   </Box>
