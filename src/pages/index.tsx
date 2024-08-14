@@ -263,7 +263,6 @@ export default function Home() {
           </Box>
         </Box>
 
-        {/* Modal for displaying product details */}
         <Modal open={isModalOpen} onClose={handleCloseModal}>
           <Box
             sx={{
